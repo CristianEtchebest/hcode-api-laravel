@@ -10,5 +10,5 @@ Aplicativo Insomnia pode ser baixado nesse link -> https://support.insomnia.rest
 - git clone https://github.com/CristianEtchebest/hcode-api-laravel.git
 - cd hcode-api-laravel
 - composer install
-- git artinsan serve
+- php artinsan serve
 
