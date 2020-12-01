@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use \Carbon\Carbon;
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,7 +12,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        DB::insert('insert into users (name, email) values(?,?)',
-            array('Anthony Garotinho','antony@hcode.com.br'));
+        DB::table('users')->insert([
+            'name' => 'Antony Garotinho',
+            'email' => 'anthony@gmail.com',
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
     }
 }

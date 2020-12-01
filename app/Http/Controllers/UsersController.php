@@ -26,6 +26,5 @@ class UsersController extends Controller
         $user->delete();
         return response()->json(['message'=>'Usuário excluído com sucesso']);
     }
-
 }
-Eitaaaa
+
