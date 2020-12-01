@@ -11,13 +11,13 @@ Aplicativo Insomnia pode ser baixado nesse link -> https://support.insomnia.rest
 - cd hcode-api-laravel
 - composer install
 
-<<<<<<< HEAD
+
 <pre>Crie o banco de Dados no PSQL
 
 =======
 Crie o banco de Dados no PSQL
 <pre>
->>>>>>> 63e915645f12f32e316d892f3a8aaa417a2d2218
+
 CREATE DATABASE hcodedb
     WITH 
     OWNER = postgres
@@ -27,7 +27,7 @@ CREATE DATABASE hcodedb
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
     </pre>
-<<<<<<< HEAD
+
 <pre>    
 Abra o editor de códigos e informe as credenciais no arquivo .env
 
@@ -35,7 +35,7 @@ Abra o editor de códigos e informe as credenciais no arquivo .env
     
 Abra o editor de códigos e informe as credenciais no arquivo .env
 <pre> 
->>>>>>> 63e915645f12f32e316d892f3a8aaa417a2d2218
+
 DB_CONNECTION = pgsql
 DB_HOST = 127.0.0.1
 DB_PORT = 5432
