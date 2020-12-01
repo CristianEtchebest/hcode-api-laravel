@@ -14,9 +14,6 @@ Aplicativo Insomnia pode ser baixado nesse link -> https://support.insomnia.rest
 
 <pre>Crie o banco de Dados no PSQL
 
-=======
-Crie o banco de Dados no PSQL
-<pre>
 
 CREATE DATABASE hcodedb
     WITH 
@@ -30,11 +27,6 @@ CREATE DATABASE hcodedb
 
 <pre>    
 Abra o editor de códigos e informe as credenciais no arquivo .env
-
-=======
-    
-Abra o editor de códigos e informe as credenciais no arquivo .env
-<pre> 
 
 DB_CONNECTION = pgsql
 DB_HOST = 127.0.0.1
